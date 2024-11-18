@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &634471809738537646
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 510738900743120128}
+  - component: {fileID: 556073229332293749}
+  m_Layer: 0
+  m_Name: ImagesCreator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &510738900743120128
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 634471809738537646}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &556073229332293749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 634471809738537646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31df8c224daeac442b98e17ea4f8d10e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  columns: 4
+  images: {fileID: 11400000, guid: 989c3bcd2c885bf4ba1d4076bd4a2425, type: 2}
+  xGapInPixels: 0
+  yGapInPixels: 0
+  xGapInUnits: 3
+  yGapInUnits: 3
+  usePixels: 0
+  generatedImages: []
+  generatedTabButtons: []
+  generatedLayeredControls: []
+  tabButtonsParent: {fileID: 0}
+  imageTabButtonPrefab: {fileID: 6256040330183807690, guid: c8dba9d3ca467da489351ed068e358a0, type: 3}
+  layersControlPrefab: {fileID: 8244392499697157804, guid: 5b4a6515a0625aa4e901fe22f2577e09, type: 3}
+  imageTabButtons: []
